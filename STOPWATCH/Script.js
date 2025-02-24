@@ -7,9 +7,9 @@ let msec = 0;
 let secs = 0;
 let mins = 0;
 
-let startSound=new Audio("../Audio/Start-sound.mp3");
-let stopSound=new Audio("../Audio/Stop-sound.mp3")
-let resetSound=new Audio("../Audio/Reset-sound.mp3")
+let startSound=new Audio("../Start-sound.mp3");
+let stopSound=new Audio("../Stop-sound.mp3")
+let resetSound=new Audio("../Reset-sound.mp3")
 
 let timerId = null;
 startBtn.addEventListener("click", function () {
